@@ -297,6 +297,9 @@
 		A6F097A14CAAE0CE0D11BE1B /* AddCarbsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E62C9757B2F95431B5DC0 /* AddCarbsProvider.swift */; };
 		AD3D2CD42CD01B9EB8F26522 /* PumpConfigDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65DA88F972B56090AD6AC3 /* PumpConfigDataFlow.swift */; };
 		B7C465E9472624D8A2BE2A6A /* CalibrationsDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA241FB1663EC96FDBE64C8A /* CalibrationsDataFlow.swift */; };
+		B8CFB66E2BA2237C0036AF85 /* DanaKitPumpManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CFB66D2BA2237C0036AF85 /* DanaKitPumpManagerExtensions.swift */; };
+		B8CFB6712BA226D90036AF85 /* DanaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CFB6702BA226D90036AF85 /* DanaKit.framework */; };
+		B8CFB6722BA226D90036AF85 /* DanaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8CFB6702BA226D90036AF85 /* DanaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B9CAAEFC2AE70836000F68BC /* branch.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9CAAEFB2AE70836000F68BC /* branch.txt */; };
 		BA00D96F7B2FF169A06FB530 /* CGMStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C018D1680307A31C9ED7120 /* CGMStateModel.swift */; };
 		BA90041DC8991147E5C8C3AA /* CalibrationsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500371C09F54F89A97D65FDB /* CalibrationsRootView.swift */; };
@@ -450,6 +453,7 @@
 				CEB434FE28B90B8C00B70274 /* SwiftCharts in Embed Frameworks */,
 				3818AA6B274C26A500843DB3 /* RileyLinkBLEKit.framework in Embed Frameworks */,
 				3818AA59274C26A300843DB3 /* LoopKit.framework in Embed Frameworks */,
+				B8CFB6722BA226D90036AF85 /* DanaKit.framework in Embed Frameworks */,
 				3818AA5B274C26A300843DB3 /* LoopKitUI.framework in Embed Frameworks */,
 				3818AA72274C278200843DB3 /* LoopTestingKit.framework in Embed Frameworks */,
 				3818AA6D274C26A500843DB3 /* RileyLinkKit.framework in Embed Frameworks */,
@@ -817,6 +821,8 @@
 		B5822B15939E719628E9FF7C /* SnoozeRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnoozeRootView.swift; sourceTree = "<group>"; };
 		B5EF98E22A39CD656A230704 /* AutotuneConfigProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutotuneConfigProvider.swift; sourceTree = "<group>"; };
 		B8C7F882606FF83A21BE00D8 /* PumpSettingsEditorRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PumpSettingsEditorRootView.swift; sourceTree = "<group>"; };
+		B8CFB66D2BA2237C0036AF85 /* DanaKitPumpManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanaKitPumpManagerExtensions.swift; sourceTree = "<group>"; };
+		B8CFB6702BA226D90036AF85 /* DanaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DanaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B5C0607505A38F256BF99A /* CGMDataFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGMDataFlow.swift; sourceTree = "<group>"; };
 		B9CAAEFB2AE70836000F68BC /* branch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = branch.txt; sourceTree = SOURCE_ROOT; };
 		BA49538D56989D8DA6FCF538 /* TargetsEditorDataFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TargetsEditorDataFlow.swift; sourceTree = "<group>"; };
@@ -914,6 +920,7 @@
 				CEC751D829D88262006E9D24 /* MinimedKitUI.framework in Frameworks */,
 				CEC751D629D88262006E9D24 /* MinimedKit.framework in Frameworks */,
 				CEC751D429D88257006E9D24 /* OmniKitUI.framework in Frameworks */,
+				B8CFB6712BA226D90036AF85 /* DanaKit.framework in Frameworks */,
 				CEC751D229D88257006E9D24 /* OmniKit.framework in Frameworks */,
 				CE79502E29980E4D00FA576E /* ShareClientUI.framework in Frameworks */,
 				CE79502A29980C9F00FA576E /* G7SensorKitUI.framework in Frameworks */,
@@ -1427,6 +1434,7 @@
 		3818AA48274C267000843DB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8CFB6702BA226D90036AF85 /* DanaKit.framework */,
 				CE51DD1B2A01970800F163F7 /* ConnectIQ 2.xcframework */,
 				CE94597929E9DF7B0047C9C6 /* ConnectIQ.framework */,
 				CEC751D529D88262006E9D24 /* MinimedKit.framework */,
@@ -1674,6 +1682,7 @@
 				CE48C86328CA69D5007C0598 /* OmniBLEPumpManagerExtensions.swift */,
 				CE48C86528CA6B48007C0598 /* OmniPodManagerExtensions.swift */,
 				CE2FAD39297D93F0001A872C /* BloodGlucoseExtensions.swift */,
+				B8CFB66D2BA2237C0036AF85 /* DanaKitPumpManagerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -2673,6 +2682,7 @@
 				45717281F743594AA9D87191 /* ConfigEditorRootView.swift in Sources */,
 				CE7CA3532A064973004BE681 /* tempPresetIntent.swift in Sources */,
 				D6DEC113821A7F1056C4AA1E /* NightscoutConfigDataFlow.swift in Sources */,
+				B8CFB66E2BA2237C0036AF85 /* DanaKitPumpManagerExtensions.swift in Sources */,
 				38E98A3025F52FF700C0CED0 /* Config.swift in Sources */,
 				BD2B464E0745FBE7B79913F4 /* NightscoutConfigProvider.swift in Sources */,
 				9825E5E923F0B8FA80C8C7C7 /* NightscoutConfigStateModel.swift in Sources */,
