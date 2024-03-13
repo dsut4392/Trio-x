@@ -299,6 +299,7 @@
 		B7C465E9472624D8A2BE2A6A /* CalibrationsDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA241FB1663EC96FDBE64C8A /* CalibrationsDataFlow.swift */; };
 		B958F1B72BA0711600484851 /* MKRingProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = B958F1B62BA0711600484851 /* MKRingProgressView */; };
 		B9CAAEFC2AE70836000F68BC /* branch.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9CAAEFB2AE70836000F68BC /* branch.txt */; };
+		B9D0F0462BA23D1900C86A0F /* SlideButton in Frameworks */ = {isa = PBXBuildFile; productRef = B9D0F0452BA23D1900C86A0F /* SlideButton */; };
 		BA00D96F7B2FF169A06FB530 /* CGMStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C018D1680307A31C9ED7120 /* CGMStateModel.swift */; };
 		BA90041DC8991147E5C8C3AA /* CalibrationsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500371C09F54F89A97D65FDB /* CalibrationsRootView.swift */; };
 		BD2B464E0745FBE7B79913F4 /* NightscoutConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF768BD6264FF7D71D66767 /* NightscoutConfigProvider.swift */; };
@@ -344,8 +345,6 @@
 		CE94598429E9E3E60047C9C6 /* WatchConfigStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94598329E9E3E60047C9C6 /* WatchConfigStateModel.swift */; };
 		CE94598729E9E4110047C9C6 /* WatchConfigRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94598629E9E4110047C9C6 /* WatchConfigRootView.swift */; };
 		CEA4F62329BE10F70011ADF7 /* SavitzkyGolayFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4F62229BE10F70011ADF7 /* SavitzkyGolayFilter.swift */; };
-		CEB434DC28B8F5B900B70274 /* MKRingProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB434DB28B8F5B900B70274 /* MKRingProgressView.framework */; };
-		CEB434DD28B8F5B900B70274 /* MKRingProgressView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEB434DB28B8F5B900B70274 /* MKRingProgressView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEB434DF28B8F5C400B70274 /* OmniBLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB434DE28B8F5C400B70274 /* OmniBLE.framework */; };
 		CEB434E028B8F5C400B70274 /* OmniBLE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEB434DE28B8F5C400B70274 /* OmniBLE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEB434E328B8F9DB00B70274 /* BluetoothStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB434E228B8F9DB00B70274 /* BluetoothStateManager.swift */; };
@@ -447,7 +446,6 @@
 				3818AA6F274C26A500843DB3 /* RileyLinkKitUI.framework in Embed Frameworks */,
 				3818AA4B274C267100843DB3 /* CGMBLEKit.framework in Embed Frameworks */,
 				CEB434E028B8F5C400B70274 /* OmniBLE.framework in Embed Frameworks */,
-				CEB434DD28B8F5B900B70274 /* MKRingProgressView.framework in Embed Frameworks */,
 				CEB434FE28B90B8C00B70274 /* SwiftCharts in Embed Frameworks */,
 				3818AA6B274C26A500843DB3 /* RileyLinkBLEKit.framework in Embed Frameworks */,
 				3818AA59274C26A300843DB3 /* LoopKit.framework in Embed Frameworks */,
@@ -913,13 +911,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC751D829D88262006E9D24 /* MinimedKitUI.framework in Frameworks */,
+				B9D0F0462BA23D1900C86A0F /* SlideButton in Frameworks */,
 				CEC751D629D88262006E9D24 /* MinimedKit.framework in Frameworks */,
 				CEC751D429D88257006E9D24 /* OmniKitUI.framework in Frameworks */,
 				CEC751D229D88257006E9D24 /* OmniKit.framework in Frameworks */,
 				CE79502E29980E4D00FA576E /* ShareClientUI.framework in Frameworks */,
 				CE79502A29980C9F00FA576E /* G7SensorKitUI.framework in Frameworks */,
 				CE79502829980C9600FA576E /* CGMBLEKitUI.framework in Frameworks */,
-				CEB434DC28B8F5B900B70274 /* MKRingProgressView.framework in Frameworks */,
 				38E87403274F78C000975559 /* libswiftCoreNFC.tbd in Frameworks */,
 				38E87401274F77E400975559 /* CoreNFC.framework in Frameworks */,
 				CEB434DF28B8F5C400B70274 /* OmniBLE.framework in Frameworks */,
@@ -2289,6 +2287,7 @@
 				38DF1788276FC8C400B3528F /* SwiftMessages */,
 				CEB434FC28B90B7C00B70274 /* SwiftCharts */,
 				B958F1B62BA0711600484851 /* MKRingProgressView */,
+				B9D0F0452BA23D1900C86A0F /* SlideButton */,
 			);
 			productName = FreeAPS;
 			productReference = 388E595825AD948C0019842D /* FreeAPS.app */;
@@ -2411,6 +2410,7 @@
 				38DF1787276FC8C300B3528F /* XCRemoteSwiftPackageReference "SwiftMessages" */,
 				CEB434FB28B90B7C00B70274 /* XCRemoteSwiftPackageReference "SwiftCharts" */,
 				B958F1B52BA0711600484851 /* XCRemoteSwiftPackageReference "MKRingProgressView" */,
+				B9D0F0442BA23D1900C86A0F /* XCRemoteSwiftPackageReference "SlideButton" */,
 			);
 			productRefGroup = 388E595925AD948C0019842D /* Products */;
 			projectDirPath = "";
@@ -3428,6 +3428,14 @@
 				kind = branch;
 			};
 		};
+		B9D0F0442BA23D1900C86A0F /* XCRemoteSwiftPackageReference "SlideButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/no-comment/SlideButton";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		CEB434FB28B90B7C00B70274 /* XCRemoteSwiftPackageReference "SwiftCharts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ivanschuetz/SwiftCharts.git";
@@ -3472,6 +3480,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B958F1B52BA0711600484851 /* XCRemoteSwiftPackageReference "MKRingProgressView" */;
 			productName = MKRingProgressView;
+		};
+		B9D0F0452BA23D1900C86A0F /* SlideButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9D0F0442BA23D1900C86A0F /* XCRemoteSwiftPackageReference "SlideButton" */;
+			productName = SlideButton;
 		};
 		CEB434FC28B90B7C00B70274 /* SwiftCharts */ = {
 			isa = XCSwiftPackageProductDependency;
